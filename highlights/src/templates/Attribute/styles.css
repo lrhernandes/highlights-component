@@ -1,0 +1,27 @@
+.attributes-containers{
+    display: flex;
+    flex-direction: row;
+}
+
+.attributes-icon{
+    height: 17px;
+    width: 17px;
+}
+
+.attributes-text{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    align-items: center;
+    color: #474747;
+    margin-left: 3px;
+    text-transform: uppercase;
+}
+
+.attributes-text div:first-of-type{
+    margin-right: 3px;
+}

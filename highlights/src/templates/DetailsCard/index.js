@@ -3,11 +3,19 @@ import './styles.css';
 import Location from '../LocationDetails';
 import Attributes from '../AttributesDetails';
 
+import heart from '../../img/heart.svg';
+
 export default function DetailsCard(){
+    const price = "900.000";
+    const title = "casa em condomínio fechado";
     return(
         <div className="details-card">
-            <h1 className="description">CASA EM CONDOMÍNIO FECHADO</h1>
-            <h2 className="price">900.000</h2>
+            <button className="fav-btn"><img src={heart}/></button>
+            <h1 className="description">{title}</h1>
+            <div className="price"> 
+                <div className="price-icon">R$</div>
+                {price}
+            </div>
             <Location/>
             <Attributes/>
         </div>

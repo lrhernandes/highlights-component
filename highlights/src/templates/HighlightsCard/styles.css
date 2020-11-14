@@ -1,14 +1,13 @@
 .card-banner{
-    height: 205px;
-    width: 355px;
+    height: 195px;
+    width: 345px;
     border-radius: 5px 5px 0px 0px;
     margin: 0;
     
 }
 
 .highlights-card{
-    border: 2px solid red;
-    width: 355px;
+    width: 345px;
     display: flex;
     flex-direction: column;
 }

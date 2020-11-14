@@ -1,0 +1,35 @@
+.location-details{
+    display: flex;
+    flex-direction: row;
+}
+
+.location-icon{
+    width: 13px;
+    height: 13px;
+    color: #474747;
+    padding: 3px;
+    padding-left: 0px;
+}
+
+.location-icon {
+    fill: red;
+    stroke: red;
+}
+
+.location-details svg {
+    fill: red;
+    border: 2px solid blue;
+    stroke: 3px solid red;
+}
+
+.location-text{
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: 15px;
+    border: 2px solid transparent;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 15px;
+    color: #474747;
+}
