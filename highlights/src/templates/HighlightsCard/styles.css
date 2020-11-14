@@ -1,0 +1,14 @@
+.card-banner{
+    height: 205px;
+    width: 355px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0;
+    
+}
+
+.highlights-card{
+    border: 2px solid red;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+}

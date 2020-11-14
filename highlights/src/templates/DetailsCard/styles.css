@@ -1,0 +1,26 @@
+.details-card{
+    background-color: #FCFCFC;
+    height: 136px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #474747;
+}
+
+.price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #012F65;
+}

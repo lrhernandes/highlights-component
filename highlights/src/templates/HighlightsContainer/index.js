@@ -1,12 +1,11 @@
 import React from 'react';
 import './styles.css';
-import Card from '../HighlightsCard';
+import Cards from '../HighlightsCard'
 
 export default function HighlightsContainer(){
     return(
         <div className="highlights-container">
-            container
-            <Card/>
+            <Cards/>
         </div>
     )
 }
