@@ -11,7 +11,7 @@
 .attributes-text{
     display: flex;
     flex-direction: row;
-    font-family: 'Poppins', sans-serif;
+    font-family: roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;

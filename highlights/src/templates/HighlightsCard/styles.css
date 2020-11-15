@@ -11,3 +11,8 @@
     display: flex;
     flex-direction: column;
 }
+
+.highlights-card:hover{
+    position: relative;
+    margin-top: -5px;
+}
