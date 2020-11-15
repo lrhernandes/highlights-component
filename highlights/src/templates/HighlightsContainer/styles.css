@@ -28,10 +28,6 @@ body{
     color: #474747;
 }
 
-.highlights-section-title:hover,.highlights-section-subtitle:hover{
-    transform: translate(-1px, 0px)
-}
-
 .highlights-section-subtitle{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -40,7 +36,6 @@ body{
     line-height: 23px;
     color: #012F65;
     margin-top: 2vw;
-    transition: transform 0.5s;
 }
 
 .highlights-section-title strong{

@@ -3,24 +3,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&display=swap');
 
-
+@media screen and (max-width: 395px){
+    .highlights-card{
+        width: 80vw;
+    }
+    .card-banner{
+        width: 80vw;
+        height: 50vw;
+        position: relative;
+    }
+    .details-card{
+        height: 45vw;
+    }
+}
 @media (max-width:600px) {
     .highlights-container{
-        border: 2px solid green;
         width: min-content;
     }
     .highlights-section-subtitle{
-        border: 2px solid red;
         width: 100%;
     }
     .highlight-grid{
-        border: 2px solid blue;
         width: min-content;
         grid-template-columns: repeat(1, auto);
     }
 }
-@media (min-width:600px) { 
-    /*diminui cartões*/
+@media (min-width:600px) {
     .highlight-grid{
         width: max-content;
         grid-template-columns: repeat(2, auto);
@@ -29,8 +37,7 @@
         width: min-content;
     }
 }
-@media (min-width:801px) { 
-    /*cartões tamanho padrão*/
+@media (min-width:801px) {
     .highlight-grid{
         width: max-content;
         grid-template-columns: repeat(2, auto);
@@ -48,32 +55,12 @@
     }
  }
 
- @media screen and (max-width: 395px){
-    .highlights-card{
-        width: 80vw;
-        border: 2px solid orange;
-    }
-
-    .card-banner{
-        width: 80vw;
-        height: 50vw;
-        position: relative;
-    }
-
-    .details-card{
-        height: 45vw;
-        border: 2px solid red;
-    }
-}
-
 @media (min-width:600px) and (max-width:800px) { 
     /*diminuir cartões*/
     .highlights-card{
         width: 40vw;
         position: relative;
-        border: 2px solid orange;
     }
-
     .card-banner{
         width: 40vw;
         height: 25vw;
