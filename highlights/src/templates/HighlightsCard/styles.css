@@ -10,9 +10,11 @@
     width: 345px;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s;
 }
 
 .highlights-card:hover{
     position: relative;
-    margin-top: -5px;
+    /*margin-top: -5px;*/
+    transform: translate(0px, -5px)
 }

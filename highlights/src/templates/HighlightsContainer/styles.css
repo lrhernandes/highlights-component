@@ -20,7 +20,12 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-top: 13vh;
+    transition: transform 0.5s;
     color: #474747;
+}
+
+.highlights-section-title:hover,.highlights-section-subtitle:hover{
+    transform: translate(-1px, 0px)
 }
 
 .highlights-section-subtitle{
@@ -29,8 +34,9 @@
     width: 70%;
     font-size: 15px;
     line-height: 23px;
-    color: #474747;
+    color: #012F65;
     margin-top: 3vh;
+    transition: transform 0.5s;
 }
 
 .highlights-section-title strong{
