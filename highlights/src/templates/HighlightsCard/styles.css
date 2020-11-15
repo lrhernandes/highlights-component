@@ -3,7 +3,6 @@
     width: 345px;
     border-radius: 5px 5px 0px 0px;
     margin: 0;
-    
 }
 
 .highlights-card{
@@ -15,6 +14,5 @@
 
 .highlights-card:hover{
     position: relative;
-    /*margin-top: -5px;*/
     transform: translate(0px, -5px)
 }

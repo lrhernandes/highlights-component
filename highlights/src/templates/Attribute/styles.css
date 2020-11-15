@@ -1,6 +1,7 @@
 .attributes-containers{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5px;
 }
 
 .attributes-icon{

@@ -4,3 +4,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&display=swap');
 
 
+@media (max-width:600px) {
+    .highlights-container{
+        border: 2px solid green;
+        width: min-content;
+    }
+    .highlights-section-subtitle{
+        border: 2px solid red;
+        width: 100%;
+    }
+    .highlight-grid{
+        border: 2px solid blue;
+        width: min-content;
+        grid-template-columns: repeat(1, auto);
+    }
+}
+@media (min-width:600px) { 
+    /*diminui cartões*/
+    .highlight-grid{
+        width: max-content;
+        grid-template-columns: repeat(2, auto);
+    }
+    .highlights-container{
+        width: min-content;
+    }
+}
+@media (min-width:801px) { 
+    /*cartões tamanho padrão*/
+    .highlight-grid{
+        width: max-content;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+@media (min-width:1025px) { 
+    .highlight-grid{
+        width: max-content;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+@media (min-width:1281px) { 
+    .highlight-grid{
+        grid-template-columns: repeat(3, auto);
+    }
+ }
+
+ @media screen and (max-width: 395px){
+    .highlights-card{
+        width: 80vw;
+        border: 2px solid orange;
+    }
+
+    .card-banner{
+        width: 80vw;
+        height: 50vw;
+        position: relative;
+    }
+
+    .details-card{
+        height: 45vw;
+        border: 2px solid red;
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) { 
+    /*diminuir cartões*/
+    .highlights-card{
+        width: 40vw;
+        position: relative;
+        border: 2px solid orange;
+    }
+
+    .card-banner{
+        width: 40vw;
+        height: 25vw;
+        position: relative;
+    }
+}
