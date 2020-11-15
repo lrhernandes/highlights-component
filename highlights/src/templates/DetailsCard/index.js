@@ -12,10 +12,7 @@ export default function DetailsCard(){
         <div className="details-card">
             <button className="fav-btn"><img src={heart}/></button>
             <h1 className="description">{title}</h1>
-            <div className="price"> 
-                <div className="price-icon">R$</div>
-                {price}
-            </div>
+            <div className="price">R${price}</div>
             <Location/>
             <Attributes/>
         </div>
