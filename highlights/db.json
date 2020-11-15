@@ -26,7 +26,7 @@
             "parking": null,
             "bedrooms": 2
         },
-        "img":"./img/img.png"
+        "img":"../../img/img1.png"
     },
     {
         "id": "3",
@@ -40,7 +40,7 @@
             "parking": 1,
             "bedrooms": 3
         },
-        "img":"./img/img.png"
+        "img":"../../img/img2.jpg"
     },
     {
         "id": "4",
@@ -54,7 +54,7 @@
             "parking": 2,
             "bedrooms": 2
         },
-        "img": "../../img/img.jpg"
+        "img": "../../img/img3.jpg"
     },
     {
         "id": "5",
@@ -68,7 +68,7 @@
             "parking": null,
             "bedrooms": 2
         },
-        "img":"./img/img.png"
+        "img":"../../img/img4.jpg"
     },
     {
         "id": "6",
@@ -82,7 +82,7 @@
             "parking": 1,
             "bedrooms": 3
         },
-        "img":"./img/img.png"
+        "img":"../../img/img5.jpg"
     }
 
   ]

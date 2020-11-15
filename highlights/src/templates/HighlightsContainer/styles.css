@@ -11,8 +11,8 @@ body{
 }
 
 .highlight-grid{
-    margin-top: 8vw;
-    margin-bottom: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     display: grid;
     gap: 50px;
     justify-items: safe center;
@@ -22,7 +22,7 @@ body{
 .highlights-section-title{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    margin-top: 10vw;
+    margin-top: 5vw;
     font-size: 1.7em;
     transition: transform 0.5s;
     color: #474747;
@@ -39,7 +39,7 @@ body{
     font-size: 0.9em;
     line-height: 23px;
     color: #012F65;
-    margin-top: 3vw;
+    margin-top: 2vw;
     transition: transform 0.5s;
 }
 
