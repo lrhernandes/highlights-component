@@ -1,47 +1,89 @@
 {
   "cards": [
-      {
-          "id": "1",
-          "name": "Casa em condomínio fechado",
-          "price": "900.000",
-          "city": "Capão da Canoa",
-          "neighbourhood": "Zona Nova",
-          "attributes": {
-              "size": 70,
-              "suites": 1,
-              "parking": 2,
-              "bedrooms": 2
-          },
-          "img": "../../img/img.jpg"
-      },
-      {
-          "id": "2",
-          "name": "Apartamento 2 quartos",
-          "price": "360.000",
-          "city": "Osório",
-          "neighbourhood": "Centro",
-          "attributes": {
-              "size": 52,
-              "suites": 1,
-              "parking": null,
-              "bedrooms": 2
-          },
-          "img":"./img/img.png"
-      },
-      {
-          "id": "3",
-          "name": "Apartamento centro",
-          "price": "420.000",
-          "city": "Imbé",
-          "neighbourhood": "Centro",
-          "attributes": {
-              "size": 58,
-              "suites": null,
-              "parking": 1,
-              "bedrooms": 3
-          },
-          "img":"./img/img.png"
-      }
+    {
+        "id": "1",
+        "name": "Casa em condomínio fechado",
+        "price": "900.000",
+        "city": "Capão da Canoa",
+        "neighbourhood": "Zona Nova",
+        "attributes": {
+            "size": 70,
+            "suites": 1,
+            "parking": 2,
+            "bedrooms": 2
+        },
+        "img": "../../img/img.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Apartamento 2 quartos",
+        "price": "360.000",
+        "city": "Osório",
+        "neighbourhood": "Centro",
+        "attributes": {
+            "size": 52,
+            "suites": 1,
+            "parking": null,
+            "bedrooms": 2
+        },
+        "img":"./img/img.png"
+    },
+    {
+        "id": "3",
+        "name": "Apartamento centro",
+        "price": "420.000",
+        "city": "Imbé",
+        "neighbourhood": "Centro",
+        "attributes": {
+            "size": 58,
+            "suites": null,
+            "parking": 1,
+            "bedrooms": 3
+        },
+        "img":"./img/img.png"
+    },
+    {
+        "id": "4",
+        "name": "Casa em condomínio fechado",
+        "price": "900.000",
+        "city": "Capão da Canoa",
+        "neighbourhood": "Zona Nova",
+        "attributes": {
+            "size": 70,
+            "suites": 1,
+            "parking": 2,
+            "bedrooms": 2
+        },
+        "img": "../../img/img.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Apartamento 2 quartos",
+        "price": "360.000",
+        "city": "Osório",
+        "neighbourhood": "Centro",
+        "attributes": {
+            "size": 52,
+            "suites": 1,
+            "parking": null,
+            "bedrooms": 2
+        },
+        "img":"./img/img.png"
+    },
+    {
+        "id": "6",
+        "name": "Apartamento centro",
+        "price": "420.000",
+        "city": "Imbé",
+        "neighbourhood": "Centro",
+        "attributes": {
+            "size": 58,
+            "suites": null,
+            "parking": 1,
+            "bedrooms": 3
+        },
+        "img":"./img/img.png"
+    }
 
   ]
 }
