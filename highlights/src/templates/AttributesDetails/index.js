@@ -1,18 +1,16 @@
 import React from 'react';
 import './styles.css';
-
 import sizeIcon from '../../img/dimensions.svg';
 import suiteIcon from '../../img/bathtub.svg';
 import bedroomIcon from '../../img/bed.svg';
 import parkingIcon from '../../img/sedan.svg';
-
 import Attribute from '../Attribute';
 
-export default function AttributesDetails(){
-    const sizeValue = 70;
-    const suitesValue = 2;
-    const bedroomValue = 3;
-    const parkingValue = 1;
+export default function AttributesDetails({card}){
+    const sizeValue = card.attributes.size;
+    const suitesValue = card.attributes.suites;
+    const bedroomValue = card.attributes.bedroom;
+    const parkingValue = card.attributes.parking;
 
     const suitsDtails = (suitesValue>1) ? ("suites") : ("suite");
     const bedroomDtails = (bedroomValue>1) ? ("dorms") : ("dorm");

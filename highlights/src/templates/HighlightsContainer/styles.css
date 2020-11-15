@@ -3,6 +3,10 @@
     width: min-content;
 }
 
+.highlights-container li{
+    list-style: none;
+}
+
 .highlight-grid{
     margin-top: 8vh;
     margin-bottom: 13vh;

@@ -12,3 +12,5 @@ export default function Attribute({icon, value, dtails}){
         </div>
     )
 }
+
+
